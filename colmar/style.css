@@ -1,12 +1,14 @@
 * {
     margin: 0px;
     list-style: none;
+    
   }
   
   body {
     font-family: 'Avenir Next LT Pro', sans-serif;
     max-width: 1280px;
     margin: auto;
+    position: relative;
   }
   #nav-bar {
     padding-left: 24px;
@@ -31,8 +33,8 @@
   }
   #nav-right{
     justify-content: space-around;
-    align-content: flex-end;
-    position: relative;
+    
+    position: absolute;
     right: 24px;
     
   }
@@ -241,12 +243,25 @@
   footer {
     padding: 16px 24px;
     color: #b7b7b7;
+    display: inline-flex;
+    align-items: center;
     
   }
-  footer #left {
-    float: left; 
+ 
+  footer .right {
+    justify-content: space-around;
+    position: absolute;
+    right: 24px;
   }
-  footer right {
-    display: flex;
-    float: right;
+  footer .right ul {
+    display: inline-flex;
+  }
+  #footer-bar {
+    padding-left: 24px;
+    display: inline-flex;
+    align-items: center;
+    height: 64px;
+  }
+  footer .right li{
+    margin-left: 16px;
   }
