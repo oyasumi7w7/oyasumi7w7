@@ -8,10 +8,33 @@
     max-width: 1280px;
     margin: auto;
   }
+  #nav-bar {
+    padding-left: 24px;
+    display: inline-flex;
+    align-items: center;
+    height: 64px;
+    
+  }
   #nav-left {
-    text-align: center;
-    margin-left: 24px;
-    display: flex;
+    display: flex; 
+    justify-content: space-between;
+  }
+  #nav-left .f2{
+    color: #b7b7b7;
+  }
+  #nav-right ul{
+    display: inline-flex;
+  }
+  #nav-right li{
+    margin-left: 16px;
+   
+  }
+  #nav-right{
+    justify-content: space-around;
+    align-content: flex-end;
+    position: relative;
+    right: 24px;
+    
   }
   
   #banner-container {
