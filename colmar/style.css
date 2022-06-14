@@ -8,6 +8,11 @@
     max-width: 1280px;
     margin: auto;
   }
+  #nav-left {
+    text-align: center;
+    margin-left: 24px;
+    display: flex;
+  }
   
   #banner-container {
   
@@ -45,10 +50,7 @@
     padding: 8px 0px;
     margin-top: 24px;
   }
-  #nav-bar {
-    margin-left: 24px;
-    
-  }
+  
   #center-content{
     display: flex;
     padding-bottom: 32px;
@@ -216,4 +218,12 @@
   footer {
     padding: 16px 24px;
     color: #b7b7b7;
+    
+  }
+  footer #left {
+    float: left; 
+  }
+  footer right {
+    display: flex;
+    float: right;
   }

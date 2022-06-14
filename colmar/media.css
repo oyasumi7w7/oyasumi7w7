@@ -25,4 +25,118 @@
       background-color: #9a9a9a;
       font-size: 24px;
     }
+    #center-content{
+        padding-bottom: 32px;
+        justify-content: center;
+    }
+    #center-content #content-left {
+        display: none;
+      }
+      #center-content #content-right {
+        padding: 16px 16px 64px 16px;
+      }
+      #content-1, #content-2, #content-3 {
+        display: block;
+       }
+      #center-content #content-right img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 16px;
+        margin: 0px auto;
+      }
+      #center-content #content-right a {
+        color: rgb(105, 125, 238);
+        font-size: 18px;
+        text-decoration: none;
+        padding-left: 16px;
+      }
+      #center-content #content-right h1 {
+        font-size: 18px;
+        padding-left: 16px;
+      }
+      #center-content #content-right p {
+        font-size: 18px;
+        color: #b7b7b7;
+        padding-left: 16px;
+      }
+      #content-3 {
+        padding-bottom: 16px;
+        background-color: white;
+      }
+      .sub img {
+        display: none;
+      }
+      .sub-1 img {
+        display: none;
+      }
+      #start-learn {
+        background-color: white;
+        padding: 32px 16px;
+       
+      }
+      .learn-topic {
+        text-align: center;
+        color: #6d6969;
+        padding-bottom: 16px;
+      }
+      .detail {
+        background-color: #e2e2e2;
+        width: auto;
+        padding: 16px 16px 24px 16px;
+        align-items: stretch;
+        color: #757575;
+        margin-bottom: 8px;
+      }
+      .detail p {
+        display: none;
+      
+      }
+      .row {
+        display: block;
+        
+    }
+    .sub {
+        margin-right: 0px;
+    }
+    .sub p {
+        margin-top: 0 ;
+        color: #b7b7b7;
+    }
+    .sub-1 p {
+        margin-top: 0 ;
+        color: #b7b7b7;
+    }
+    .sub, .sub-1 {
+        margin-bottom: 0;
+    }
+    #right-video {
+        display: none;
+    }
+    #video h1{
+        display: none;
+    }
+    #video p{
+        display: none;
+    }
+    #thesis {
+        padding-top: 32px;
+        padding-left: 0px;
+        padding-bottom: 24;
+    }
+    .thesis-topic {
+        text-align: center;
+        color: #6d6969;
+        padding-bottom: 16px;
+      }
+    #video video {
+        width: 100%;
+        
+      }
+      
+    footer li {
+        display: none;
+    }
+    footer p {
+        font-size: 14px;
+    }
   }
