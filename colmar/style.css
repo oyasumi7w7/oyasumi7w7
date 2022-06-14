@@ -1,37 +1,219 @@
 * {
     margin: 0px;
-}
-body {
-    font-family: "Avenir Next LT Pro" , sans-serif; 
+    list-style: none;
+  }
+  
+  body {
+    font-family: 'Avenir Next LT Pro', sans-serif;
     max-width: 1280px;
     margin: auto;
-}
-#banner-container {
+  }
+  
+  #banner-container {
+  
     display: flex;
     align-items: center;
     padding: 32px 24px;
     background-color: #d7d7d7;
-}
-#banner-container img {
+  }
+  
+  #banner-container img {
     width: 60%;
-}
-#banner-container #banner-text {
-    margin-left: 24px;
+  }
+  
+  #banner-container #banner-text {
+    max-width: 300px;
     display: flex;
     flex-direction: column;
-}
-#banner-container #banner-text h1 {
-    color: #4a4a4a;
-   
-}
-#banner-container #banner-text p {
+    margin-left: 24px;
+  }
+  
+  #banner-container #banner-text h1 {
     margin-top: 24px;
-}
-#banner-container #banner-text button {
-    
+    color: #4a4a4a;
+  }
+  
+  #banner-container #banner-text p {
+    color: #4a4a4a;
+    margin-top: 24px;
+  }
+  
+  #banner-container #banner-text button {
     color: white;
     background-color: #4a4a4a;
     border: unset;
-    padding: 8px 0;
+    padding: 8px 0px;
     margin-top: 24px;
+  }
+  #nav-bar {
+    margin-left: 24px;
+    
+  }
+  #center-content{
+    display: flex;
+    padding-bottom: 32px;
+    align-items: center;
+  }
+  #center-content #content-left img {
+    width: 60%;
+    
+  }
+  #center-content #content-left {
+    padding: 32px 24px 0 24px;
+    max-width: 768px;
+  }
+  #center-content #content-left h1 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    color: #4a4a4a;
+  }
+  #center-content #content-left p {
+    color: #4a4a4a;
+  }
+  .director{
+    padding-top: 32px;
+  }
+  #center-content #content-right {
+    padding: 32px 16px 0px;
+    max-width: 512px;
+    
+  }
+  #center-content #content-right img {
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+  }
+  #center-content #content-right a {
+    color: rgb(105, 125, 238);
+    font-size: 16px;
+    text-decoration: none;
+  }
+  #center-content #content-right h1 {
+    font-size: 16px;
+  }
+  #center-content #content-right p {
+    font-size: 12px;
+    color: #b7b7b7;
+  }
+  #content-1 {
+    padding-bottom: 16px;
+    
+  } 
+  #content-2, #content-3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  } 
+  #content-1, #content-2, #content-3 {
+   display: flex;
+  } 
+  #content-3 {
+    padding-bottom: 16px;
+    background-color: #d7d7d7;
+  }
+  #start-learn {
+    background-color: #d7d7d7;
+    padding: 32px 72px;
+   
+  }
+  .learn-topic {
+    text-align: center;
+    color: #6d6969;
+    padding-bottom: 32px;
 }
+#spacer {
+    max-width: auto;
+    margin: auto; 
+}
+    
+.sub {
+    background-color: white;
+}.sub-1 {
+    background-color: white;
+}
+.sub h1 {
+    font-size: 20px;
+}
+.sub-1 h1 {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+}
+.sub {
+    margin-right: 32px;
+}
+.sub, .sub-1 {
+    margin-bottom: 32px;
+}
+.sub img {
+    height: auto;
+    width: 100%;
+}
+.sub-1 img {
+    height: auto;
+    width: 100%;
+} 
+.sub p {
+    margin-top: 8 ;
+    color: #b7b7b7;
+}
+.sub-1 p {
+    margin-top: 8 ;
+    color: #b7b7b7;
+}
+.detail {
+    margin: 16px 16px 24px 16px;
+}
+#thesis {
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+#main {
+    display: flex;
+}
+  .thesis-topic {
+    text-align: center;
+    color: #6d6969;
+    padding-bottom: 32px;
+  }
+  #video video {
+    width: 60%;
+  }
+   #video  {
+    max-width: 768px;
+    width: 60%;
+  }
+  #thesis #video h1 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+    color: #4a4a4a;
+  }
+  #thesis #video p {
+    color: #4a4a4a;
+  }
+  #video-1,#video-2 {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+  }
+  #video-1 {
+    background-color: #d7d7d7;
+  }
+  #right-video {
+    max-width: 500px;
+    width: 40%;
+
+  }
+  #right-video img{
+    
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+  }
+  footer {
+    padding: 16px 24px;
+    color: #b7b7b7;
+  }
